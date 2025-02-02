@@ -1,0 +1,12 @@
+body {
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons-box {
+        font-size: 6em;
+        cursor: pointer;
+}
+
+.play-btn {
+        color: red;
+}
