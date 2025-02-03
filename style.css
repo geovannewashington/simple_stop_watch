@@ -1,12 +1,40 @@
 body {
+        color: rgb(33, 32, 32);
         font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(221, 223, 224);
+}
+
+#display-time {
+        font-size: 4em;
+}
+
+.stopwatch {
+        background-color: #fff;
+        max-width: 600px;
+        width: 90%;
+        text-align: center;
+        padding: 40px 0;
+        margin: 200px auto 0;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        border-radius: 10px;
 }
 
 .buttons-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
         font-size: 6em;
+}
+
+.buttons-box i {
+        transition: transform 0.3s ease-in-out;
+}
+
+.buttons-box i:hover {
+        transform: scale(1.1);
         cursor: pointer;
 }
 
 .play-btn {
-        color: red;
+        color: rgb(231, 59, 59);
 }
