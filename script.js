@@ -30,6 +30,10 @@
         }
 
         function trigger_watch() {
+                if (timer !== null) {
+                        clearInterval(timer);
+                }
+                
                 timer = setInterval(update_display, 1000);
         }
 
